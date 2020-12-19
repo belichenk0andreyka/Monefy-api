@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://admin:admin@monefy.jvoca.mongodb.net/Monefy?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "a532a981ace3f55cfa65",
+    "githubSecret": "00c648a4fe98e502a3d4f0f4fe70b9d5265471df"
+}
