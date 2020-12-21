@@ -17,6 +17,7 @@ app.get('/', (req, res) => res.send('API Running'));
 app.use('/api/register', require('./routes/api/register'))
 app.use('/api/auth', require('./routes/api/auth'))
 app.use('/api/actions', require('./routes/api/actions'))
+app.use('/api/currencies', require('./routes/api/currencies'))
 
 const PORT = process.env.PORT || 5000;
 
